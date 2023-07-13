@@ -152,7 +152,18 @@ body{
            }
 
  }
-
+a{
+    text-decoration: none!important;
+}
+.top-navbar a {
+    color: white!important;
+}
+.bottom-navbar a {
+    color: #285531!important;
+}
+a:hover{
+    font-weight: 900;
+}
 
 /* Navbar */
 .page1{
@@ -212,6 +223,9 @@ background-color: #285531;
   outline: none !important;
   border: 0 !important;
   box-shadow: none !important;
+}
+.offcanvas{
+    background-color: #285531!important;
 }
 
 .bottom-navbar{
@@ -377,7 +391,10 @@ color: #285531;
 .footer-bottom p{
     font-size: 15px!important;
 }
-
+.footer a {
+    text-decoration: none!important;
+    color: white!important;
+}
 
 /*layout2*/
 

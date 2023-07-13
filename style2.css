@@ -213,6 +213,9 @@ background-color: #285531;
   border: 0 !important;
   box-shadow: none !important;
 }
+.offcanvas{
+    background-color: #285531!important;
+}
 
 .bottom-navbar{
 display: flex;
