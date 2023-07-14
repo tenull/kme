@@ -39,7 +39,13 @@ body{
         position: relative;
         
     }
-    
+    .image-layout2{
+        max-width: 300px!important;
+    }
+.page1{
+    position: relative;
+    top: 53px!important;
+}
 
   }
 
@@ -74,6 +80,10 @@ body{
             max-width: 100vh!important;
             min-height: 100%;
            }
+           .bottom-navbar{
+            position: relative;
+            top: 63px!important;
+           }
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
@@ -106,7 +116,7 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 59px!important;
+            top: 55px!important;
            }
 
  }
@@ -184,13 +194,14 @@ background-color: #285531;
     display: flex;
     list-style-type: none;
     color: white;
-
+    margin: 0!important;
 }
 
 .right ul{
     list-style-type: none;
     display: flex;
     color: white;
+    margin: 0!important;
 }
 .logo_main{
     position: absolute;
@@ -202,10 +213,11 @@ background-color: #285531;
     margin: auto;
 }
 .logo_main img{
-    width: 150px;
+    width: 180px;
 }
 
 .navbar-toggler,
+.btn-close,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -377,14 +389,25 @@ color: #285531;
     padding-left: 15px;
     padding-right: 15px;
 }
+.footer-button{
+    max-height: 40px;
+    background-color: #285531!important;
+}
 .footer-bottom p{
     font-size: 15px!important;
 }
 
+a{
+    text-decoration: none!important;
+    color: white!important;
+}
 
 /*layout2*/
 
 .image-box{
     display: flex;
 align-items: flex-end;
+}
+.bottom-navbar a {
+    color: #285531!important;
 }

@@ -70,10 +70,12 @@ body{
      .contentthree-container ul,li{
         font-size: 23px;
         }
-        .image-content{
-            max-width: 100vh!important;
-            min-height: 100%;
+
+           .bottom-navbar{
+            position: relative;
+            top: 63px!important;
            }
+
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
@@ -106,8 +108,9 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 59px!important;
+            top: 55px!important;
            }
+
 
  }
 
@@ -146,10 +149,11 @@ body{
      .contentthree-container ul,li{
         font-size: 18px;
         }
-        .image-content{
-            max-width: 90%!important;
-      max-height: 20%!important;
-           }
+ 
+           .page1{
+            position: relative;
+            top: 53px!important;
+        }
 
  }
 a{
@@ -161,9 +165,9 @@ a{
 .bottom-navbar a {
     color: #285531!important;
 }
-a:hover{
+/* a:hover{
     font-weight: 900;
-}
+} */
 
 /* Navbar */
 .page1{
@@ -195,13 +199,14 @@ background-color: #285531;
     display: flex;
     list-style-type: none;
     color: white;
-
+    margin: 0!important;
 }
 
 .right ul{
     list-style-type: none;
     display: flex;
     color: white;
+    margin: 0!important;
 }
 .logo_main{
     position: absolute;
@@ -213,10 +218,11 @@ background-color: #285531;
     margin: auto;
 }
 .logo_main img{
-    width: 150px;
+    width: 180px;
 }
 
 .navbar-toggler,
+.btn-close,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -258,6 +264,12 @@ font-weight: bold;
 }
 
 /* Hero */
+.image-content {
+    position: relative;
+    width: calc(100vw - 50%);
+    max-width: 130%;
+    height: 100%;
+  }
 
 .layout2-hero{
     background-image:url(images/Layer\ 118.png);
@@ -271,7 +283,7 @@ color: #285531;
 
 .container-main{
     position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     top: 150px;
 }
 .container-box img{
@@ -320,6 +332,7 @@ color: #285531;
     border-right: none;
     border-left: 80px solid #285531;
     border-bottom: 80px solid transparent;
+    z-index: 1;
   }
   .contenttwo-text {
     font-size: 50px;
@@ -387,6 +400,10 @@ color: #285531;
     border: none;
     padding-left: 15px;
     padding-right: 15px;
+}
+.footer-button{
+    max-height: 40px;
+    background-color: #285531!important;
 }
 .footer-bottom p{
     font-size: 15px!important;
