@@ -118,6 +118,9 @@ body{
             position: relative;
             top: 55px!important;
            }
+           .logo_main img{
+            width: 150px!important;
+        }
 
  }
 
@@ -160,6 +163,9 @@ body{
             max-width: 90%!important;
       max-height: 20%!important;
            }
+           .logo_main img{
+            width: 120px!important;
+        }
 
  }
 
@@ -337,6 +343,9 @@ color: #285531;
     display: inline-block;
     margin-right: 10px;
   }
+  .image-container img{
+    min-height: 400px;
+  }
   .image-text {
     position: absolute;
     bottom: 25px;
@@ -371,6 +380,7 @@ color: #285531;
 }
 .footer ul{
     list-style-type: none;
+    padding-left: 0;
 }
 .footeraccept{
     font-size: 12px;

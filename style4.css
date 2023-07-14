@@ -116,6 +116,9 @@ body{
             position: relative;
             top: 53px!important;
            }
+           .logo_main img{
+            width: 150px!important;
+        }
 
  }
 
@@ -167,6 +170,13 @@ body{
           .page1{
             position: relative;
             top: 53px!important;
+        }
+        .search-container{
+            position: fixed;
+            top: 50px!important;
+        }
+        .logo_main img{
+            width: 120px!important;
         }
  }
 a{
@@ -378,6 +388,9 @@ color: #285531;
     display: inline-block;
     margin-right: 10px;
   }
+  .image-container img{
+    min-height: 400px;
+  }
   .customermain-image-text {
     position: absolute;
     padding-top: 5%;
@@ -426,6 +439,7 @@ color: #285531;
 }
 .footer ul{
     list-style-type: none;
+    padding-left: 0;
 }
 .footeraccept{
     font-size: 12px;
@@ -485,13 +499,17 @@ align-items: flex-end;
     position: fixed;
     top: 125px;
     width: 100%;
-    display: none;
+    /* display: none; */
 }
 .search-container span{
     font-size: 10px;
 }
 .search-container button{
     background-color: #285531;
+}
+.search-container a {
+    text-decoration: none!important;
+    color: #285531;
 }
 
 /*layout4*/
