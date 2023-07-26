@@ -107,6 +107,9 @@ body{
            .bottom-navbar ul{
             margin: 0;
            }
+           .button-main {
+            font-size: 20px!important;
+         }
            
  }
  
@@ -150,6 +153,7 @@ body{
     .col-md-4{
         max-width: 300px!important;
     }
+    
     h1{
         font-size: 30px!important;
         font-weight: bolder!important;
@@ -378,7 +382,7 @@ color: #285531;
     float: left;
   }
   .box button{
-    font-size: 35px;
+    font-size: 30px;
     color: #285531;
   }
 
