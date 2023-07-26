@@ -40,7 +40,7 @@ body{
         
     }
     .image-layout2{
-        max-width: 300px!important;
+        max-width: 250px!important;
     }
 .page1{
     position: relative;
@@ -63,15 +63,15 @@ body{
         font-weight: bolder!important;
      }
      p{
-        font-size: 30px!important;
+        font-size: 20px!important;
      }
      h5{
-        font-size: 28px!important;
+        font-size: 23px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 20px!important;
+        font-size: 18px!important;
      }
      .contentthree-container ul,li{
         font-size: 23px;
@@ -82,17 +82,17 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 63px!important;
+            top: 45px!important;
            }
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
     h1{
-        font-size: 35px!important;
+        font-size: 30px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 20px!important;
+        font-size: 15px!important;
      }
      h5{
         font-size: 18px!important;
@@ -103,10 +103,10 @@ body{
         font-size: 15px!important;
      }
      .button-main {
-        font-size: 25px!important;
+        font-size: 20px!important;
      }
      .footer-right p {
-        font-size: 18px!important;
+        font-size: 15px!important;
      }
      .contentthree-container ul,li{
         font-size: 18px;
@@ -116,7 +116,7 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 55px!important;
+            top: 45px!important;
            }
            .logo_main img{
             width: 150px!important;
@@ -171,6 +171,39 @@ body{
 
 
 /* Navbar */
+.top-navbar a {
+    font-size: 15px;
+   }
+   .top-navbar li {
+    font-size: 15px;
+   }
+   .top-navbar svg{
+    padding: 3px;
+   }
+   .bottom-navbar a {
+    font-size: 15px;
+   }
+   .bottom-navbar ul{
+    margin: 0;
+   }
+.line{
+    border-right: 2px solid white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+   }
+   .line2{
+    border-right: 2px solid #285531;
+    height: 18px;
+    display: flex;
+    align-items: center;
+   }
+   .line3{
+    border-right: 2px solid white;
+    height: 15px;
+    display: flex;
+    align-items: center;
+   }
 .page1{
     font-family: 'Source Sans 3', sans-serif;
     position: relative;
@@ -219,7 +252,7 @@ background-color: #285531;
     margin: auto;
 }
 .logo_main img{
-    width: 180px;
+    width: 150px;
 }
 
 .navbar-toggler,
@@ -240,7 +273,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: fixed;
-top: 67px;
+top: 45px;
 background-color: #fff;
 width: 100%;
 color: #285531;
@@ -269,7 +302,7 @@ font-weight: bold;
 .layout2-hero{
     background-image:url(images/Layer\ 123.png);
     background-size: cover;
-    height: 700px;
+    height: 500px;
 
 }
 .contentone-h{
@@ -385,31 +418,37 @@ color: #285531;
 .footeraccept{
     font-size: 12px;
 }
-.footer-bottom{
-    font-size: 15px;
+.footer-bottom p{
+    font-size: 13px!important;
 }
+
 .footer-top{
     font-size: 20px;
 }
 .footer button{
-    font-size: 20px;
     color:white;
     background-color: #e38a40;
     border: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 .footer-button{
     max-height: 40px;
     background-color: #285531!important;
 }
-.footer-bottom p{
+.footer a{
     font-size: 15px!important;
 }
 
 a{
     text-decoration: none!important;
     color: white!important;
+}
+.szechenyi{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
 }
 
 /*layout2*/
@@ -420,4 +459,37 @@ align-items: flex-end;
 }
 .bottom-navbar a {
     color: #285531!important;
+}
+
+@media (max-width: 2576px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+
+}
+
+@media  (max-width: 991px) {
+.layout2-box{
+
+}
+.footer-button-container{
+    display: flex!important;
+    justify-content: center!important;
+}
+.footer li{
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center;
+}
+.footer-bottom {
+    display: flex!important;
+    justify-content: center!important;
+    padding-left: 30px!important;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
 }
