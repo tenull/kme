@@ -313,9 +313,12 @@ font-weight: bold;
 .image-content {
     position: relative;
     width: calc(100vw - 50%);
-    /* max-width: 130%; */
+    max-width: 130%;
     height: 100%;
   }
+  .image-content img{
+    max-height: 130%
+}
 
 .layout2-hero{
     background-image:url(images/Layer\ 118.png);
