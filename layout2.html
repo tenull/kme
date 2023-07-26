@@ -29,11 +29,13 @@
                     <div class="top-navbar">
                         <div class="left z-3 ">
                             <ul class="d-flex align-items-center">
-                                <li class="pe-3"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                            <path
-                                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                        </svg></a> </li>
+                                <li class="pe-3"> 
+                                    <a href="#" id="search-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                        </svg>
+                                    </a> 
+                                </li>
                                         <div class="line ps-2   d-flex align-items-center"></div>
                                 <li class="ps-3 pe-3 ms-2 "><a href="">GYIK</a> </li>
                                 <div class="line ps-2   d-flex align-items-center"></div>
@@ -103,18 +105,34 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item ">
-                                <a class="nav-link active text-white" aria-current="page" href="#">ISMERJE MEG A
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    ISMERJE MEG A
                                     KMÉ-T!</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">VÉDJEGYES
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    VÉDJEGYES
                                     TERMÉKEK</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">HÍRBLOG</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    HÍRBLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">TUDÁSBÁZIS</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    TUDÁSBÁZIS</a>
                             </li>
                             <button type="button"
                                 class="button-nav btn btn-warning text-white d-flex ms-2 me-5 mt-2 mb-2 border-0">TERMÉKKERESŐ</button>
@@ -144,6 +162,21 @@
                 </ul>
             </div>
         </div>
+        <div class="search-container z-1" style="display: none;">
+            <form class="container search-form my-2 my-lg-0 d-flex flex-wrap" role="search" method="get" action="http://kme2.vermis.hu/">
+                <div class="input-group">
+                    <label for="exampleInputEmail1" class="form-label d-flex align-items-end fw-bold">MIT KERES?</label>
+                    <input type="text" name="s" class="form-control rounded ms-5 me-5" placeholder="" title="Search" />
+                    <button type="" name="submit" class="btn rounded btn-success ps-5 pe-5">KERESÉS</button>
+                    <div class="d-flex align-items-center">
+                        <a href="">
+                            <span class="ms-3 me-1">x</span>
+                            <span>BEZÁRÁS</span>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <div class="layout2container">
             <div class="layout2-hero">
@@ -166,7 +199,7 @@
             </div>
             <div class="layout2-container">
                 <div class="container">
-                    <div class="d-flex flex-wrap">
+                    <div class="d-flex flex-wrap justify-content-center">
                         <div class="box arrow-right col-lg-8 pt-4  rounded mt-5 mb-5 p-4">
                             <h1 class="text-white fw-bold col-lg-10 contenttwo-text mb-4">KEDVES VÁSÁRLÓ!</h1>
                             <p class="text-white contenttwo-text2">Szeretne garantáltan jó minőségű élelmiszert
@@ -215,7 +248,10 @@
                                 <li><a href="">KAPCSOLAT</a></li>
                                 <li><a href="">VÁLLALKOZÓK</a></li>
                                 <li><a href="">NYITÓOLDAL</a></li>
+                                <li class="mt-2"><button class="btn footer-button d-flex justify-content-center d-lg-none d-lg-block mb-2  rounded fw-bold">LAP TETEJÉRE</button></li>
+                                
                             </ul>
+                           
                         </div>
                         <div class="col-lg-2 socialmedia">
                             <ul class="d-flex">
@@ -247,19 +283,19 @@
 
                         </div>
                         <div class="footer-button-container col-lg-5 d-flex justify-content-end">
-                            <button class="btn footer-button rounded fw-bold">LAP TETEJÉRE</button>
+                            <button class="btn footer-button d-none d-lg-block rounded fw-bold">LAP TETEJÉRE</button>
                         </div>
 
 
                         <div class="row footer-bottom ">
-                            <p class="d-flex justify-content-end m-0">Minden jog fentartva. Élelmiszerlánc-biztonsági
+                            <p class=" m-0">Minden jog fentartva. Élelmiszerlánc-biztonsági
                                 Nonprofit Kft. (ÉLBC Kft.)2023.</p>
-                            <ul class="d-flex justify-content-end">
+                            <ul class="d-flex">
                                 <li><a href="">Adatkezelési tájékoztató</a> </li>
                                 <div class="line3 ps-2 me-2 mt-2 "></div>
                                 <li><a href="ms-2">Cookie szabályzat</a> </li>
                                 <div class="line3 ps-2 me-2 mt-2 "></div>
-                                <li><a href="ms-2">Cookie-k kezelése</a> </li>>
+                                <li><a href="ms-2">Cookie-k kezelése</a> </li>
 
                             </ul>
                         </div>
@@ -269,5 +305,22 @@
                 </div>
                 <img class="szechenyi" src="/images/SZ2020.png" alt="">
 </body>
+<script>
+  
+    const searchIcon = document.getElementById('search-icon');
+
+    const searchContainer = document.querySelector('.search-container');
+
+  
+    searchIcon.onclick = function() {
+ 
+        if (searchContainer.style.display === 'none') {
+            searchContainer.style.display = 'block';
+        } else {
+            searchContainer.style.display = 'none';
+        }
+    };
+    
+</script>
 
 </html>

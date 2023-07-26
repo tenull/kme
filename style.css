@@ -18,7 +18,7 @@ body{
 .card{
     align-items: center!important;
 }
-@media (min-width: 992px) {
+@media (min-width: 1199px) {
     .navbar-toggler {
       display: none;
     }
@@ -27,10 +27,19 @@ body{
     }
 
   }
-  @media(max-width:991px){
+  @media(max-width:1200px){
     .left,.right,.bottom-navbar,.left-bottom-navbar,.right-bottom-navbar{
         display: none;
     }
+    .homepage{
+        top: 50px!important;
+    }
+    .search-container{
+        top: 45px!important;
+    }
+}
+  @media(max-width:991px){
+
     .logo_main{
         position: relative;
         left: 15px;
@@ -67,12 +76,15 @@ body{
      h6{
         font-size: 18px!important;
      }
+     .contentthree-container{
+        padding-left: 30px;
+     }
      .contentthree-container ul,li{
         font-size: 20px;
         }
         .bottom-navbar{
             position: relative;
-            top: 45px!important;
+            top: 43px!important;
            }
            .top-navbar a {
             font-size: 15px;
@@ -141,7 +153,7 @@ body{
 
            .bottom-navbar{
             position: relative;
-            top: 45px!important;
+            top: 43px!important;
            }
            .logo_main img{
             width: 120px!important;
@@ -185,6 +197,15 @@ body{
      .footer-right p {
         font-size: 15px!important;
      }
+     .contentthree img{
+        padding-bottom: 10px;
+     }
+     .contentthree-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px!important;
+     }
      .contentthree-container ul,li{
         font-size: 18px;
         }
@@ -195,11 +216,27 @@ body{
         .logo_main img{
             width: 120px!important;
         }
+        .container-main{
+            top: 80px!important;
+        }
+        .hero{
+            height: 400px!important;
+        }
+        .row-cols-md-4{
+            display: flex!important;
+            flex-wrap: wrap!important;
+        }
+        .box-col{
+            min-width: 300px;
+        }
 
  }
 
 
 /* Navbar */
+.offcanvas a{
+    text-decoration: dotted!important;
+}
 .top-navbar a {
     font-size: 15px;
    }
@@ -325,6 +362,28 @@ font-weight: bold;
     font-weight: bold!important;
 }
 
+.search-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #b4c79e;
+    color: #285531;
+    position: fixed;
+    top: 94px;
+    width: 100%;
+    /* display: none; */
+}
+.search-container span{
+    font-size: 10px;
+    color: #285531;
+}
+.search-container button{
+    background-color: #285531;
+}
+.search-container a {
+    text-decoration: none!important;
+    color: #285531;
+}
+
 /* Hero */
 
 .hero{
@@ -340,7 +399,6 @@ color: #285531;
 .container-main{
     position: relative;
     background-color: rgba(255, 255, 255, 0.5);
-   
     top: 150px;
 }
 .container-box img{
@@ -406,6 +464,12 @@ color: #285531;
 .contenttwo-button{
     font-size: 40px;
 }
+/* .image-box2{
+    background-image: url(images/Layer\ 43.png);
+   background-size: cover;
+   min-height: 50%;
+   min-width: 100vw;
+} */
 
   .image-container {
     position: relative;
@@ -503,6 +567,15 @@ a {
 .footer-bottome2 ul, .footer-bottome2 p{
     display: none!important;
 }
+
+.footer-bottom p{
+    display: flex!important;
+    justify-content: flex-end!important;
+}
+.footer-bottom ul{
+    display: flex!important;
+    justify-content: flex-end!important;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -529,6 +602,13 @@ a {
 .left-footer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left-footer li{
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
 }
 .footer-bottome2 ul, .footer-bottome2 p{
     display: flex!important;
@@ -543,5 +623,45 @@ a {
 .contentfour-image{
     display: flex!important;
     justify-content: center!important;
+}
+
+.footer-bottome2 p{
+    display: flex!important;
+    justify-content: center!important;
+    text-align: center;
+}
+.footer-bottome2 ul{
+    display: flex!important;
+    justify-content: center!important;
+    flex-direction: column;
+    align-items: center!important;
+}
+.line{
+    display: none;
+}
+.contentthree-container span{
+    font-size: 15px;
+}
+.contentthree-container li{
+    font-size: 15px;
+}
+.contentfour-image{
+   
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center!important;
+    justify-content: space-evenly;
+    gap: 4px!important;
+}
+.input-group input{
+    min-width: 200px!important;
+}
+.szechenyi{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 150px;
 }
 }

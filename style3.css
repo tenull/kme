@@ -73,7 +73,7 @@ body{
 
            .bottom-navbar{
             position: relative;
-            top: 45px!important;
+            top: 43px!important;
            }
 
  }
@@ -108,7 +108,7 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 45px!important;
+            top: 43px!important;
            }
            .logo_main img{
             width: 120px!important;
@@ -166,6 +166,9 @@ body{
         }
         .logo_main img{
             width: 120px!important;
+        }
+        .search-container{
+            top: 45px!important;
         }
 
  }
@@ -307,6 +310,28 @@ font-weight: bold;
 .button-nav{
     background-color: #e38a40!important;
     font-weight: bold!important;
+}
+
+.search-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #b4c79e;
+    color: #285531;
+    position: fixed;
+    top: 94px;
+    width: 100%;
+    /* display: none; */
+}
+.search-container span{
+    font-size: 10px;
+    color: #285531;
+}
+.search-container button{
+    background-color: #285531;
+}
+.search-container a {
+    text-decoration: none!important;
+    color: #285531;
 }
 
 /* Hero */
@@ -484,6 +509,17 @@ color: #285531;
 align-items: flex-end;
 }
 
+@media (max-width: 2576px) {
+    .footer-bottom p{
+        display: flex!important;
+        justify-content: flex-end!important;
+    }
+    .footer-bottom ul{
+        display: flex!important;
+        justify-content: flex-end!important;
+    }
+}
+
 @media  (max-width: 991px) {
     .layout2-box{
     
@@ -503,8 +539,38 @@ align-items: flex-end;
         justify-content: center!important;
         padding-left: 30px!important;
     }
+
+    .footer-bottom p{
+        display: flex!important;
+        justify-content: center!important;
+        text-align: center;
+    }
+    .footer-bottom ul{
+        display: flex!important;
+        justify-content: center!important;
+        flex-direction: column;
+    }
+    .line3{
+        display: none;
+    }
     .socialmedia{
         display: flex;
         justify-content: center;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center!important;
+        justify-content: space-evenly;
+        gap: 4px!important;
+    }
+    .input-group input{
+        min-width: 200px!important;
+    }
+    .szechenyi{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 150px;
     }
     }

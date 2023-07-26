@@ -28,11 +28,13 @@
                         <div class="left z-3 ">
 
                             <ul class="d-flex align-items-center">
-                                <li class="pe-3"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                                            height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                            <path
-                                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                        </svg></a> </li>
+                                <li class="pe-3"> 
+                                    <a href="#" id="search-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                        </svg>
+                                    </a> 
+                                </li>
                                 <div class="line ps-2  d-flex align-items-center"></div>
                                 <li class=" ms-3 me-2 d-flex align-items-center"><a class="d-flex align-items-center"
                                         href="">GYIK</a> </li>
@@ -84,7 +86,7 @@
                     </div>
                 </div>
 
-                <button class="navbar-toggler d-lg-none z-2" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler  z-2" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -100,21 +102,42 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
                             <li class="nav-item ">
-                                <a class="nav-link active text-white" aria-current="page" href="#">MIÉRT
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    MIÉRT
                                     CSATLAKOZZON?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">PÁLYÁZHATÓ
+                                
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    PÁLYÁZHATÓ
                                     TERMÉKKÖRÖK</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">HOGYAN PÁLYÁZHAT</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    HOGYAN PÁLYÁZHAT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">HÍREK</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    HÍREK</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">VÉDJEGYHASZNÁLAT</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                      </svg>
+                                    VÉDJEGYHASZNÁLAT</a>
                             </li>
                             <button type="button"
                                 class="button-nav btn btn-warning border-0 text-white d-flex ms-2 me-5 mt-2 mb-2">PÁLYÁZAT
@@ -147,6 +170,21 @@
                 </ul>
             </div>
         </div>
+        <div class="search-container z-1" style="display: none;">
+            <form class="container search-form my-2 my-lg-0 d-flex flex-wrap" role="search" method="get" action="http://kme2.vermis.hu/">
+                <div class="input-group">
+                    <label for="exampleInputEmail1" class="form-label d-flex align-items-end fw-bold">MIT KERES?</label>
+                    <input type="text" name="s" class="form-control rounded ms-5 me-5" placeholder="" title="Search" />
+                    <button type="" name="submit" class="btn rounded btn-success ps-5 pe-5">KERESÉS</button>
+                    <div class="d-flex align-items-center">
+                        <a href="">
+                            <span class="ms-3 me-1">x</span>
+                            <span>BEZÁRÁS</span>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <div class="hero">
             <div class="container">
@@ -178,7 +216,7 @@
 
                 <div class="container-box ps-5 pe-5">
                     <div class="row row-cols-md-4 g-4">
-                        <div class="col text-center">
+                        <div class="col text-center box-col">
                             <div class="card h-100 border-0 ">
                                 <img src="images/Layer 103 copy 3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -188,7 +226,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-center">
+                        <div class="col text-center box-col">
                             <div class="card h-100 border-0">
                                 <img src="images/Layer 103 copy 3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -198,7 +236,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-center">
+                        <div class="col text-center box-col">
                             <div class="card h-100 border-0">
                                 <img src="images/Layer 103 copy 3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -208,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-center">
+                        <div class="col text-center box-col">
                             <div class="card h-100 border-0">
                                 <img src="images/Layer 103 copy 3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -236,11 +274,12 @@
                             2015/1535 irányelve szerinti notifikációs eljárásnak.</p>
                         <button type="button" class="btn btn-light ps-5 pe-5 button-main fw-bold">CSATLAKOZZON!</button>
                     </div>
-                    <div class="image-box col-lg-6 ">
+                    <div class="image-box col-lg-6 d-none  d-lg-block">
                         <img class=" image-content" src="images/Layer 43.png" alt="">
                     </div>
                 </div>
             </div>
+            
         </div>
 
         <div class="contentthree mt-5 mb-5">
@@ -248,7 +287,7 @@
                 <div class="col-lg-6 ">
                     <img class="img-fluid" src="images/Layer 105.png" alt="">
                 </div>
-                <div class="contentthree-container col-lg-6 ps-5">
+                <div class="contentthree-container col-lg-6 ">
                     <h1 class="contentthree-h1 fw-bold">VÉDJEGYET! DE KINEK?</h1>
                     <p>A KMÉ-védjegyre valamennyi belföldi és EU tagországbeli élelmiszer-termelő,-előállító,-feldolgozó
                         és -forgalmazó pályázhat, aki rendelkezik FELIR-azonosítóval.</p>
@@ -274,8 +313,8 @@
                         odaítéléséig, hanem a teljes védjegyhasználati ciklusban, folyamatosan fenn kell tartani.</p>
                 </div>
                 <div class="contentfour-container container">
-                    <div class=" row d-flex flex-wrap justify-content-center ">
-                        <div class="contentfour-image col-md-4 mt-5 mb-5">
+                    <div class=" row d-flex flex-wrap justify-content-center mt-5 mb-5 ">
+                        <div class="contentfour-image col-md-4 mt-2 mb-2">
                             <div class="image-container  rounded">
                                 <img src="images/Layer 107.png" alt="Kép 1" class="rounded-image">
 
@@ -287,7 +326,7 @@
 
                             </div>
                         </div>
-                        <div class="contentfour-image col-md-4 mt-5 mb-5">
+                        <div class="contentfour-image col-md-4 mt-2 mb-2">
                             <div class="image-container">
                                 <img src="images/Layer 109.png" alt="Kép 2" class="rounded-image">
                                 <div class="image-text rounded pt-2 pb-2">
@@ -297,7 +336,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="contentfour-image col-md-4 mt-5 mb-5">
+                        <div class="contentfour-image col-md-4 mt-2 mb-2">
                             <div class="image-container">
                                 <img src="images/Layer 54.png" alt="Kép 3" class="rounded-image">
                                 <div class="image-text rounded pt-2 pb-2">
@@ -317,7 +356,7 @@
             <div class="container pt-4  ps-5 pe-5 footer-top">
                 <div class="row">
                     <div class="left-footer col-lg-7 d-flex flex-wrap">
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
                             <ul>
                                 <li><a href="">MIÉRT CSATLAKOZZON?</a> </li>
                                 <li><a href="">PÁLYÁZHATÓ TERMÉKKÖRÖK</a></li>
@@ -326,14 +365,14 @@
                                 <li><a href="">SAJTÓ ÉS MÉDIA</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <ul>
                                 <li><a href="">KAPCSOLAT</a> </li>
                                 <li><a href="">VÁSÁRLÓK</a> </li>
                                 <li><a href="">NYITÓOLDAL</a> </li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-4 ">
                             <ul class="d-flex">
                                 <li class="me-3 border border-2 rounded p-1 d-flex align-items-center"><a href=""><svg
                                             xmlns="http://www.w3.org/2000/svg" width="25" height="25"
@@ -390,7 +429,7 @@
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
                                     placeholder="E-mail cím">
                             </div>
-                            <div class="col-lg-12 d-flex flex-wrap">
+                            <div class="col-lg-12 d-flex flex-wrap justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -408,7 +447,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <button type="button" class="btn btn-warning">FELIRATKOZOM</button>
+                                    <button type="button" class="btn btn-warning mb-2">FELIRATKOZOM</button>
                                 </div>
                             </div>
                         </div>
@@ -434,5 +473,21 @@
         </div>
         <img class="szechenyi" src="/images/SZ2020.png" alt="">
 </body>
+<script>
+  
+    const searchIcon = document.getElementById('search-icon');
 
+    const searchContainer = document.querySelector('.search-container');
+
+  
+    searchIcon.onclick = function() {
+ 
+        if (searchContainer.style.display === 'none') {
+            searchContainer.style.display = 'block';
+        } else {
+            searchContainer.style.display = 'none';
+        }
+    };
+    
+</script>
 </html>
