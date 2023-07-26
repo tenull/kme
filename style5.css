@@ -558,16 +558,7 @@ align-items: flex-end;
     height: 100%;
   }
 
-.search-container{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: #b4c79e;
-    color: #285531;
-    position: fixed;
-    top: 125px;
-    width: 100%;
-    /* display: none; */
-}
+
 .search-container span{
     font-size: 10px;
 }
