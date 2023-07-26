@@ -122,6 +122,9 @@ body{
            .button-main {
             font-size: 20px!important;
          }
+         .box{
+            padding-left: 70px!important;
+           }
            
  }
  
@@ -158,6 +161,9 @@ body{
            .logo_main img{
             width: 120px!important;
         }
+        .box{
+            padding-left: 50px!important;
+           }
 
  }
 
@@ -229,6 +235,9 @@ body{
         .box-col{
             min-width: 300px;
         }
+        .box{
+            padding-left: 30px!important;
+           }
 
  }
 
