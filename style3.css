@@ -313,7 +313,7 @@ font-weight: bold;
 .image-content {
     position: relative;
     width: calc(100vw - 50%);
-    max-width: 130%;
+    /* max-width: 130%; */
     height: 100%;
   }
 
