@@ -238,7 +238,17 @@ body{
         .box{
             padding-left: 30px!important;
            }
-
+           .contentthree-container ul{
+            padding-left: 20px!important;
+           }
+.footeraccept{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-right p{
+    text-align: center;
+}
  }
 
 
@@ -579,11 +589,11 @@ a {
 
 .footer-bottom p{
     display: flex!important;
-    justify-content: flex-end!important;
+    justify-content: center!important;
 }
 .footer-bottom ul{
     display: flex!important;
-    justify-content: flex-end!important;
+    justify-content: center!important;
 }
 }
 
@@ -665,7 +675,10 @@ a {
     gap: 4px!important;
 }
 .input-group input{
-    min-width: 200px!important;
+    min-width: 250px!important;
+}
+.input-group button{
+    width: 250px;
 }
 .szechenyi{
     position: fixed;
@@ -673,4 +686,23 @@ a {
     right: 0px;
     width: 150px;
 }
+}
+
+.menu-navbar{
+    z-index: 100!important;
+}
+
+
+.left2 ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    margin: 0!important;
+}
+
+.right2 ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    margin: 0!important;
 }

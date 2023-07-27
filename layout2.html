@@ -169,7 +169,7 @@
                     <input type="text" name="s" class="form-control rounded ms-5 me-5" placeholder="" title="Search" />
                     <button type="" name="submit" class="btn rounded btn-success ps-5 pe-5">KERESÉS</button>
                     <div class="d-flex align-items-center">
-                        <a href="">
+                        <a href="#" id="close-search">
                             <span class="ms-3 me-1">x</span>
                             <span>BEZÁRÁS</span>
                         </a>
@@ -306,21 +306,29 @@
                 <img class="szechenyi" src="/images/SZ2020.png" alt="">
 </body>
 <script>
-  
     const searchIcon = document.getElementById('search-icon');
+
 
     const searchContainer = document.querySelector('.search-container');
 
-  
+
     searchIcon.onclick = function() {
- 
+        
         if (searchContainer.style.display === 'none') {
             searchContainer.style.display = 'block';
         } else {
             searchContainer.style.display = 'none';
         }
     };
-    
+
+
+    const closeSearchIcon = document.getElementById('close-search');
+
+
+    closeSearchIcon.onclick = function() {
+
+        searchContainer.style.display = 'none';
+    };
 </script>
 
 </html>

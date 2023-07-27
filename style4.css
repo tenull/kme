@@ -86,6 +86,10 @@ body{
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
+    .news-container img{
+        min-width: 127px;
+        height: 127px;
+    }
     h1{
         font-size: 35px!important;
         font-weight: bolder!important;
@@ -124,6 +128,10 @@ body{
  }
 
  @media  (max-width: 991px) {
+    .news-container img{
+        min-width: 127px;
+        height: 127px;
+    }
     h1{
         font-size: 30px!important;
         font-weight: bolder!important;
@@ -581,17 +589,15 @@ color: #285531;
     text-decoration: underline!important;
     color: #285531!important;
 }
-.news-container img{
-    min-width: 120px;
-}
+
 @media (max-width: 2576px) {
     .footer-bottom p{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
     .footer-bottom ul{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
 }
 
@@ -643,8 +649,11 @@ color: #285531;
         justify-content: space-evenly;
         gap: 4px!important;
     }
+    .input-group button{
+        width: 250px;
+    }
     .input-group input{
-        min-width: 200px!important;
+        min-width: 250px!important;
     }
     .szechenyi{
         position: fixed;

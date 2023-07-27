@@ -75,10 +75,17 @@ body{
             position: relative;
             top: 43px!important;
            }
+           .box{
+            padding-left: 130px!important;
+        }
+    
 
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
+    .box{
+        padding-left: 100px!important;
+    }
     h1{
         font-size: 35px!important;
         font-weight: bolder!important;
@@ -170,7 +177,18 @@ body{
         .search-container{
             top: 45px!important;
         }
+        .box{
+            padding-left: 48px!important;
+            padding-bottom: 0!important;
+        }
 
+ }
+ .imagetest{
+    background-image: url(images/Layer\ 121.png);
+    background-size: cover;
+    background-position:  right bottom;
+    width: 50vw;
+    height: 50vh;
  }
 a{
     text-decoration: none!important;
@@ -512,12 +530,13 @@ align-items: flex-end;
 @media (max-width: 2576px) {
     .footer-bottom p{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
     .footer-bottom ul{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
+
 }
 
 @media  (max-width: 991px) {
@@ -565,7 +584,10 @@ align-items: flex-end;
         gap: 4px!important;
     }
     .input-group input{
-        min-width: 200px!important;
+        min-width: 250px!important;
+    }
+    .input-group button{
+        width: 250px;
     }
     .szechenyi{
         position: fixed;

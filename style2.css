@@ -488,11 +488,11 @@ align-items: flex-end;
 @media (max-width: 2576px) {
     .footer-bottom p{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
     .footer-bottom ul{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
 }
 
@@ -539,7 +539,10 @@ align-items: flex-end;
     gap: 4px!important;
 }
 .input-group input{
-    min-width: 200px!important;
+    min-width: 250px!important;
+}
+.input-group button{
+    width: 250px;
 }
 .szechenyi{
     position: fixed;

@@ -169,14 +169,14 @@
                     <input type="text" name="s" class="form-control rounded ms-5 me-5" placeholder="" title="Search" />
                     <button type="" name="submit" class="btn rounded btn-success ps-5 pe-5">KERESÉS</button>
                     <div class="d-flex align-items-center">
-                        <a href="">
+                        <a href="#" id="close-search">
                             <span class="ms-3 me-1">x</span>
                             <span>BEZÁRÁS</span>
                         </a>
                     </div>
                 </div>
             </form>
-        </div>
+        </div> 
         <div class="layout2container">
             <div class="layout2-hero">
                 <div class="container">
@@ -207,7 +207,7 @@
                         <div class="selectmenu select mb-3 d-flex flex-wrap">
                             <label class="col-lg-2 pe-3 d-flex justify-content-end align-items-center"
                                 for="">Márkanév</label>
-                            <select class="col-lg-8" name="" id="">
+                            <select class="col-lg-10" name="" id="">
                                 <option selected></option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -217,7 +217,7 @@
                         <div class="selectmenu select mb-3 d-flex flex-wrap">
                             <label class="col-lg-2 pe-3 d-flex justify-content-end align-items-center"
                                 for="">Termékcsoport</label>
-                            <select class="col-lg-8" name="" id="">
+                            <select class="col-lg-10" name="" id="">
                                 <option selected></option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -227,7 +227,7 @@
                         <div class="selectmenu select mb-3 d-flex flex-wrap">
                             <label class="col-lg-2 pe-3 d-flex justify-content-end align-items-center"
                                 for="">Gyártó/forgalmazó</label>
-                            <select class="col-lg-8" name="" id="">
+                            <select class="col-lg-10" name="" id="">
                                 <option selected></option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -237,7 +237,7 @@
                         <div class="selectmenu select mb-3 d-flex flex-wrap">
                             <label class="col-lg-2 pe-3 d-flex justify-content-end align-items-center"
                                 for="">Védjegy</label>
-                            <div class="col-lg-8 d-flex justify-content-between">
+                            <div class="col-lg-10 d-flex justify-content-between">
                                 <div class="d-flex col-lg-2 align-items-center">
                                     <div class="form-check pe-3 d-flex align-items-center">
                                         <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
@@ -376,21 +376,29 @@
                 <img class="szechenyi" src="/images/SZ2020.png" alt="">
 </body>
 <script>
-  
     const searchIcon = document.getElementById('search-icon');
+
 
     const searchContainer = document.querySelector('.search-container');
 
-  
+
     searchIcon.onclick = function() {
- 
+        
         if (searchContainer.style.display === 'none') {
             searchContainer.style.display = 'block';
         } else {
             searchContainer.style.display = 'none';
         }
     };
-    
+
+
+    const closeSearchIcon = document.getElementById('close-search');
+
+
+    closeSearchIcon.onclick = function() {
+
+        searchContainer.style.display = 'none';
+    };
 </script>
 
 </html>

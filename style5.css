@@ -636,11 +636,11 @@ color: #285531;
     }
     .footer-bottom p{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
     .footer-bottom ul{
         display: flex!important;
-        justify-content: flex-end!important;
+        justify-content: center!important;
     }
   }
 
@@ -708,7 +708,10 @@ color: #285531;
         gap: 4px!important;
     }
     .input-group input{
-        min-width: 200px!important;
+        min-width: 250px!important;
+    }
+    .input-group button{
+        width: 250px;
     }
     .szechenyi{
         position: fixed;
