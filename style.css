@@ -102,7 +102,7 @@ body{
            .top-navbar li {
             font-size: 15px;
            }
-           .top-navbar svg{
+           .top-navbar,.top-menu svg{
             padding: 3px;
            }
            .line{
@@ -718,7 +718,7 @@ a {
 }
 
 .top-menu{
-    background-color: #285531;
+    background-color: #0d572d;
     width: 100%;
 position: fixed;
 top: 250px;
