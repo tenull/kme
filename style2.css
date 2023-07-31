@@ -192,6 +192,7 @@ body{
    }
    .top-navbar svg,.top-menu svg{
     padding: 3px;
+    padding-bottom: 4px;
    }
    .bottom-navbar a {
     font-size: 15px;
@@ -223,7 +224,7 @@ body{
     top: 87px;
 }
 .navbar {
-    background-color: #285531;
+    background-color: #0d572d;
     display: flex;
     position: absolute;
     top: 0;
@@ -239,7 +240,7 @@ display: flex;
 justify-content: space-between;
 width: 100%;
 margin-right: 25px;
-background-color: #285531;
+background-color: #0d572d;
 }
 
 .left ul {
@@ -278,7 +279,7 @@ background-color: #285531;
   box-shadow: none !important;
 }
 .offcanvas{
-    background-color: #285531!important;
+    background-color: #0d572d!important;
 }
 
 .bottom-navbar{

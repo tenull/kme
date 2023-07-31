@@ -217,10 +217,10 @@
                     </div>
                         <div class="top-menu  align-items-center">
         
-                            <ul class="d-flex justify-content-center m-0 p-0">
+                            <ul class="d-flex align-items-center justify-content-center m-0 p-0">
                                 <div>
                             <li class="pe-3 "> 
-                                <a href="#" id="search-icon">
+                                <a href="#" id="search-icon2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                                     </svg>
@@ -456,29 +456,37 @@
                 <img class="szechenyi" src="/images/SZ2020.png" alt="">
 </body>
 <script>
-    const searchIcon = document.getElementById('search-icon');
+    const searchIcon1 = document.getElementById('search-icon');
+const searchContainer1 = document.querySelector('.search-container');
+
+searchIcon1.onclick = function() {
+    if (searchContainer1.style.display === 'none') {
+        searchContainer1.style.display = 'block';
+    } else {
+        searchContainer1.style.display = 'none';
+    }
+};
 
 
-    const searchContainer = document.querySelector('.search-container');
+const searchIcon2 = document.getElementById('search-icon2');
+const searchContainer2 = document.querySelector('.search-container');
+
+searchIcon2.onclick = function() {
+    if (searchContainer2.style.display === 'none') {
+        searchContainer2.style.display = 'block';
+    } else {
+        searchContainer2.style.display = 'none';
+    }
+};
 
 
-    searchIcon.onclick = function() {
-        
-        if (searchContainer.style.display === 'none') {
-            searchContainer.style.display = 'block';
-        } else {
-            searchContainer.style.display = 'none';
-        }
-    };
+const closeSearchIcon = document.getElementById('close-search');
 
+closeSearchIcon.onclick = function() {
+    searchContainer1.style.display = 'none';
+    searchContainer2.style.display = 'none';
+};
 
-    const closeSearchIcon = document.getElementById('close-search');
-
-
-    closeSearchIcon.onclick = function() {
-
-        searchContainer.style.display = 'none';
-    };
 </script>
 
 </html>
