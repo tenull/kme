@@ -53,22 +53,22 @@ body{
 
  @media (max-width: 2576px) {
     h1{
-        font-size: 50px!important;
+        font-size: 48px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 20px!important;
+        font-size: 18px!important;
      }
      h5{
-        font-size: 23px!important;
+        font-size: 21px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 18px!important;
+        font-size: 16px!important;
      }
      .contentthree-container ul,li{
-        font-size: 20px;
+        font-size: 21px;
         }
         .image-content {
             position: relative;
@@ -86,11 +86,11 @@ body{
  
  @media (min-width: 992px) and (max-width: 1440px) {
     h1{
-        font-size: 35px!important;
+        font-size: 28px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 18px!important;
+        font-size: 15px!important;
      }
      h5{
         font-size: 16px!important;
@@ -98,16 +98,16 @@ body{
         color: #285531!important;
      }
      h6{
-        font-size: 15px!important;
+        font-size: 13px!important;
      }
      .button-main {
-        font-size: 20px!important;
-     }
-     .footer-right p {
         font-size: 18px!important;
      }
+     .footer-right p {
+        font-size: 15px!important;
+     }
      .contentthree-container ul,li{
-        font-size: 18px;
+        font-size: 16px;
         }
         .image-content{
             min-height: 50%;
@@ -124,19 +124,19 @@ body{
 
  @media  (max-width: 991px) {
     h1{
-        font-size: 30px!important;
+        font-size: 28px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 15px!important;
+        font-size: 13px!important;
      }
      h5{
-        font-size: 20px!important;
+        font-size: 15px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 18px!important;
+        font-size: 13px!important;
      }
      .box.arrow-right:after{
         display: none;
@@ -155,7 +155,7 @@ body{
         font-size: 15px!important;
      }
      .contentthree-container ul,li{
-        font-size: 18px;
+        font-size: 16px;
         }
 
         .image-content {
@@ -208,10 +208,10 @@ a{
 /* Navbar */
 
 .top-navbar a {
-    font-size: 15px;
+    font-size: 13px;
    }
    .top-navbar li {
-    font-size: 15px;
+    font-size: 13px;
    }
    .top-navbar svg, .top-menu svg{
     padding: 3px;
@@ -219,7 +219,7 @@ a{
     color: white;
    }
    .bottom-navbar a {
-    font-size: 15px;
+    font-size: 13px;
    }
    .bottom-navbar ul{
     margin: 0;
@@ -543,7 +543,7 @@ color: #285531;
     background-color: #285531!important;
 }
 .footer a{
-    font-size: 15px!important;
+    font-size: 13px!important;
 }
 .footer-bottom p{
     font-size: 13px!important;
@@ -644,7 +644,7 @@ color: #285531;
 
   @media (max-width: 2576px) {
     .selectmenu label{
-        font-size: 30px;
+        font-size: 28px;
     }
     .footer-bottom p{
         display: flex!important;
@@ -658,13 +658,13 @@ color: #285531;
 
   @media (min-width: 992px) and (max-width: 1440px) {
     .selectmenu label{
-        font-size: 20px;
+        font-size: 18px;
     }
   }
 
   @media  (max-width: 991px) {
     .selectmenu label{
-        font-size: 18px;
+        font-size: 16px;
     }
     .selectmenu{
         display: flex;
@@ -745,4 +745,7 @@ color: #285531;
     }
     .top-menu ul{
         list-style-type: none;
+    }
+    button{
+        font-size: 14px!important;
     }

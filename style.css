@@ -72,19 +72,19 @@ body{
 
  @media (max-width: 2576px) {
     h1{
-        font-size: 50px!important;
+        font-size: 48px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 20px!important;
+        font-size: 18px!important;
      }
      h5{
-        font-size: 23px!important;
+        font-size: 21px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 18px!important;
+        font-size: 16px!important;
      }
      .contentthree-container{
         padding-left: 30px;
@@ -97,10 +97,10 @@ body{
             top: 52px!important;
            }
            .top-navbar a {
-            font-size: 15px;
+            font-size: 13px;
            }
            .top-navbar li {
-            font-size: 15px;
+            font-size: 13px;
            }
            .top-navbar,.top-menu svg{
             padding: 3px;
@@ -141,28 +141,28 @@ body{
  
  @media (min-width: 992px) and (max-width: 1440px) {
     h1{
-        font-size: 35px!important;
+        font-size: 33px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 18px!important;
+        font-size: 16px!important;
      }
      h5{
-        font-size: 16px!important;
+        font-size: 14px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 15px!important;
+        font-size: 13px!important;
      }
      .button-main {
-        font-size: 20px!important;
+        font-size: 18px!important;
      }
      .footer-right p {
         font-size: 15px!important;
      }
      .contentthree-container ul,li{
-        font-size: 18px;
+        font-size: 16px;
         }
 
            .bottom-navbar{
@@ -184,19 +184,19 @@ body{
     }
     
     h1{
-        font-size: 30px!important;
+        font-size: 28px!important;
         font-weight: bolder!important;
      }
      p{
-        font-size: 15px!important;
+        font-size: 13px!important;
      }
      h5{
-        font-size: 17px!important;
+        font-size: 15px!important;
         font-weight: bold!important;
         color: #285531!important;
      }
      h6{
-        font-size: 15px!important;
+        font-size: 13px!important;
      }
      .box.arrow-right:after{
         display: none;
@@ -224,7 +224,7 @@ body{
         padding-left: 0px!important;
      }
      .contentthree-container ul,li{
-        font-size: 18px;
+        font-size: 16px;
         }
         .homepage{
             position: relative;
@@ -268,16 +268,16 @@ body{
     text-decoration: dotted!important;
 }
 .top-navbar a {
-    font-size: 15px;
+    font-size: 13px;
    }
    .top-navbar li {
-    font-size: 15px;
+    font-size: 13px;
    }
    .top-navbar svg{
     padding: 3px;
    }
    .bottom-navbar a {
-    font-size: 15px;
+    font-size: 13px;
    }
    .bottom-navbar ul{
     margin: 0;
@@ -492,7 +492,7 @@ color: #285531;
     font-size: 30px;
 }
 .contenttwo-button{
-    font-size: 40px;
+    font-size: 38px;
 }
 /* .image-box2{
     background-image: url(images/Layer\ 43.png);
@@ -549,16 +549,16 @@ color: #285531;
     font-size: 12px;
 }
 .footer-bottom{
-    font-size: 15px;
+    font-size: 13px;
 }
 .footer-top{
-    font-size: 20px;
+    font-size: 18px;
 }
 .footer p {
-    font-size: 15px!important;
+    font-size: 13px!important;
 }
 .footer a {
-    font-size: 15px;
+    font-size: 13px;
 }
 .footer button{
     color:white;
@@ -572,7 +572,7 @@ color: #285531;
     background-color: #285531!important;
 }
 .footer-bottom p{
-    font-size: 15px!important;
+    font-size: 13px!important;
 }
 
 a {
@@ -613,17 +613,17 @@ a {
         font-size: 30px!important;
     }
 .contentthree li{
-    font-size: 15px;
+    font-size: 13px;
 }
 .contentthree p {
-    font-size: 15px!important;
+    font-size: 13px!important;
     margin: 0;
 }
 .contentthree button {
     font-size: 15px!important;
 }
 .contentthree span{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 }
@@ -645,7 +645,7 @@ a {
     justify-content: center!important;
 }
 .footer-bottome2 a, .footer-bottome2 p{
-    font-size: 12px!important;
+    font-size: 10px!important;
 }
 .footer-bottom ul, .footer-bottom p{
     display: none!important;
@@ -670,10 +670,10 @@ a {
     display: none;
 }
 .contentthree-container span{
-    font-size: 15px;
+    font-size: 13px;
 }
 .contentthree-container li{
-    font-size: 15px;
+    font-size: 13px;
 }
 .contentfour-image{
    
@@ -730,4 +730,10 @@ display: none;
 }
 .top-menu ul{
     list-style-type: none;
+}
+.bottom-navbar button{
+    font-size: 14px!important;
+}
+.footer button{
+    font-size: 14px!important;
 }
