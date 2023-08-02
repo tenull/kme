@@ -182,7 +182,7 @@ body{
         }
         .search-container{
             position: fixed;
-            top: 43px!important;
+            top: 92px!important;
             padding-top: 70px!important;
             padding-bottom: 40px!important;
         }
@@ -201,7 +201,7 @@ body{
             }
             .navbar,.fixed-top{
                 position: fixed;
-                top: 25px!important;
+                top: 24px!important;
             }
  }
 a{
@@ -426,7 +426,7 @@ color: #285531;
     content: " ";
     position: absolute;
     left: -50px;
-    top: 150px;
+    top: 120px;
     border-top: 50px solid transparent;
     border-right: 50px solid #285531;
     border-left: none;
@@ -692,3 +692,23 @@ color: #285531;
     .bottom-navbar button{
         font-size: 14px!important;
     }
+
+
+    .contenttwo{
+        background-color: #285531;
+    }
+    .contenttwo2{
+        background-color: #285531;
+        margin-right: 0!important;
+        }
+    .test{
+        margin-right: 0!important;
+    }
+    .custom-container {
+        margin-right: 15px!important;
+    }
+        .contenttwo2-image{
+            background-image: url(images/Layer\ 44.png);
+            background-size: cover;
+            background-position: right;
+        }

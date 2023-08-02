@@ -167,7 +167,7 @@ body{
             width: 120px!important;
         }
         .search-container{
-            top: 45px!important;
+            top: 93px!important;
         }
         .top-menu{
             top: 0!important;
@@ -177,7 +177,7 @@ body{
         }
         .navbar,.fixed-top{
             position: fixed;
-            top: 25px!important;
+            top: 24px!important;
         }
 
  }
@@ -357,6 +357,7 @@ color: #285531;
     background-color: #285531;
 
 }
+
 .contentthree-h1{
 color: #285531;
 }

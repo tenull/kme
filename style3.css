@@ -75,17 +75,17 @@ body{
             position: relative;
             top: 43px!important;
            }
-           .box{
+           /* .box{
             padding-left: 130px!important;
-        }
+        } */
     
 
  }
  
  @media (min-width: 992px) and (max-width: 1440px) {
-    .box{
+    /* .box{
         padding-left: 100px!important;
-    }
+    } */
     h1{
         font-size: 28px!important;
         font-weight: bolder!important;
@@ -175,10 +175,10 @@ body{
             width: 120px!important;
         }
         .search-container{
-            top: 45px!important;
+            top: 91px!important;
         }
         .box{
-            padding-left: 48px!important;
+            /* padding-left: 48px!important; */
             padding-bottom: 0!important;
         }
 
@@ -190,7 +190,10 @@ body{
         }
         .navbar,.fixed-top{
             position: fixed;
-            top: 25px!important;
+            top: 24px!important;
+        }
+        .contenttwo2{
+            height: 300px!important;
         }
 
  }
@@ -251,6 +254,7 @@ a{
     align-items: center;
    }
 .page1{
+    background-color: #285531;
     font-family: 'Source Sans 3', sans-serif;
     position: relative;
     top: 87px;
@@ -397,8 +401,22 @@ color: #285531;
 
 .contenttwo{
     background-color: #285531;
-
 }
+.contenttwo2{
+    background-color: #285531;
+    margin-right: 0!important;
+    }
+.test{
+    margin-right: 0!important;
+}
+.custom-container {
+    margin-right: 15px!important;
+}
+    .contenttwo2-image{
+        background-image: url(images/Layer\ 121.png);
+        background-size: cover;
+        background-position: right;
+    }
 .contentthree-h1{
 color: #285531;
 }
