@@ -133,6 +133,10 @@ body{
            .button-main {
             font-size: 20px!important;
          }
+         .contenttwo2{
+            position: relative;
+           margin-left: 100px!important;
+            }
          /* .box{
             padding-left: 0px!important;
            } */
@@ -161,7 +165,7 @@ body{
      .footer-right p {
         font-size: 15px!important;
      }
-     .contentthree-container ul,li{
+     .contentthree-container ul{
         font-size: 16px;
         }
 
@@ -172,6 +176,10 @@ body{
            .logo_main img{
             width: 120px!important;
         }
+        .contenttwo2{
+            position: relative;
+           margin-left: 80px!important;
+            }
         /* .box{
             padding-left: 50px!important;
            } */
@@ -260,6 +268,10 @@ body{
 .footer-right p{
     text-align: center;
 }
+.contenttwo2{
+    position: relative;
+   margin-left: 20px!important;
+    }
  }
 
 

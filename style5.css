@@ -106,7 +106,7 @@ body{
      .footer-right p {
         font-size: 15px!important;
      }
-     .contentthree-container ul,li{
+     .contentthree-container ul{
         font-size: 16px;
         }
         .image-content{
@@ -651,6 +651,10 @@ color: #285531;
     .footer-bottom ul{
         display: flex!important;
         justify-content: center!important;
+    }
+    .footer-button-container{
+        position: relative;
+        left: 15px;
     }
   }
 
