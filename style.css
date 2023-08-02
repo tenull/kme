@@ -28,6 +28,7 @@ body{
 
   }
   @media(max-width:1200px){
+    
     .top-menu{
         top: 0!important;
         display: block!important;
@@ -89,7 +90,7 @@ body{
      .contentthree-container{
         padding-left: 30px;
      }
-     .contentthree-container ul,li{
+     .contentthree-container ul{
         font-size: 20px;
         }
         .bottom-navbar{
@@ -133,9 +134,9 @@ body{
            .button-main {
             font-size: 20px!important;
          }
-         .contenttwo2{
+         .box{
             position: relative;
-           margin-left: 100px!important;
+           padding-left: 150px!important;
             }
          /* .box{
             padding-left: 0px!important;
@@ -176,9 +177,9 @@ body{
            .logo_main img{
             width: 120px!important;
         }
-        .contenttwo2{
+        .box{
             position: relative;
-           margin-left: 80px!important;
+           padding-left: 100px!important;
             }
         /* .box{
             padding-left: 50px!important;
@@ -231,7 +232,7 @@ body{
         align-items: center;
         padding-left: 0px!important;
      }
-     .contentthree-container ul,li{
+     .contentthree-container ul{
         font-size: 16px;
         }
         .homepage{
@@ -270,7 +271,7 @@ body{
 }
 .contenttwo2{
     position: relative;
-   margin-left: 20px!important;
+   margin-left: 0px!important;
     }
  }
 

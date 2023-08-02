@@ -75,6 +75,10 @@ body{
             position: relative;
             top: 43px!important;
            }
+           .box{
+            position: relative;
+           margin-left: 150px!important;
+            }
            /* .box{
             padding-left: 130px!important;
         } */
@@ -120,6 +124,10 @@ body{
            .logo_main img{
             width: 120px!important;
         }
+        .box{
+            position: relative;
+           margin-left: 100px!important;
+            }
 
 
  }
@@ -192,9 +200,13 @@ body{
             position: fixed;
             top: 24px!important;
         }
-        .contenttwo2{
+        /* .contenttwo2{
             height: 300px!important;
-        }
+        } */
+        .box{
+            position: relative;
+           margin-left: 0px!important;
+            }
 
  }
  .imagetest{
