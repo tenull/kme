@@ -160,7 +160,7 @@ body{
             width: 120px!important;
         }
         .search-container{
-            top: 93px!important;
+            top: 91px!important;
         }
         .top-menu{
             top: 0!important;
@@ -170,7 +170,7 @@ body{
         }
         .navbar,.fixed-top{
             position: fixed;
-            top: 24px!important;
+            top: 23px!important;
         }
 
  }
@@ -283,7 +283,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: fixed;
-top: 43px;
+top: 41px;
 background-color: #fff;
 width: 100%;
 color: #285531;
@@ -312,7 +312,7 @@ font-weight: bold;
     background-color: #b4c79e;
     color: #285531;
     position: fixed;
-    top: 94px;
+    top: 91px;
     width: 100%;
     /* display: none; */
 }

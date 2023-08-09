@@ -79,8 +79,11 @@ body{
           }
            .bottom-navbar{
             position: relative;
-            top: 43px!important;
+            top: 41px!important;
            }
+           .content-customermain-hero p{
+            font-size: 28px!important;
+        }
            
  }
  
@@ -114,10 +117,13 @@ body{
            }
            .bottom-navbar{
             position: relative;
-            top: 43px!important;
+            top: 41px!important;
            }
            .logo_main img{
             width: 120px!important;
+        }
+        .content-customermain-hero p{
+            font-size: 20px!important;
         }
 
  }
@@ -173,7 +179,7 @@ body{
         }
         .search-container{
             position: fixed;
-            top: 92px!important;
+            top: 91px!important;
         }
         .logo_main img{
             width: 120px!important;
@@ -187,7 +193,10 @@ body{
         }
         .navbar,.fixed-top{
             position: fixed;
-            top: 24px!important;
+            top: 23px!important;
+        }
+        .content-customermain-hero p{
+            font-size: 18px!important;
         }
  }
 a{
@@ -343,7 +352,7 @@ font-weight: bold;
     background-color: #b4c79e;
     color: #285531;
     position: fixed;
-    top: 94px;
+    top: 91px;
     width: 100%;
     /* display: none; */
 }
@@ -598,7 +607,7 @@ color: #285531;
 
 /*layout5*/
 .emblem{
-    width: 35px;
+    width: 45px;
 }
 
 .search-product{
